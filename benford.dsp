@@ -5,7 +5,7 @@ declare author "Olga Ustiuzhanina";
 declare version "0.01";
 declare license "GNU GPL 3.0";
 
-declare description "A simple plugin to view frequency of initial-digits in PCM samples of your audio.";
+declare description "A simple plugin to view frequency of initial digits of PCM samples.";
 
 // UI declarations
 alpha = hslider("alpha", 1.0025, 1, 1.005, 0.000000000001) : log10;
